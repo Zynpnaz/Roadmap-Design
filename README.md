@@ -1,4 +1,3 @@
 # Roadmap-Design
 
-![Document](https://user-images.githubusercontent.com/62498978/133670145-16f4f162-76bb-4590-a3af-23374076527c.png)
-)
+![Ekran Resmi 2021-09-16 22 06 52](https://user-images.githubusercontent.com/62498978/133670734-8abe331f-8384-42e9-a898-69280971b0e3.png)
