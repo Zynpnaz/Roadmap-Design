@@ -12,17 +12,17 @@ body {
 
 .container {
   margin: 0;
-  background-color: #8bd3dd;
-  color: #001858;
+  background-color: #31233C;
+  color: #ebfde5;
   padding: 20px 120px;
 }
 .container header h3 {
-  color: #dd246b;
+  color: #75EECC;
   position: relative;
   padding-left: 60px;
   font-size: 0.9rem;
 }
-.container header h3:before {
+.container header h3::before {
   position: absolute;
   left: 0;
   top: 50%;
@@ -30,74 +30,74 @@ body {
   height: 2px;
   width: 50px;
   content: "";
-  background: #dd246b;
+  background-color: #75EECC;
 }
 .container header h1 {
   font-size: 2rem;
 }
-.container .content .first-row {
+.container .content .row {
   display: flex;
   position: relative;
 }
-.container .content .first-row::before {
+.container .content .row::before {
   position: absolute;
   top: 42px;
   left: 0;
   width: 100%;
   height: 0;
   content: "";
-  border-bottom: 3px solid #f582ae;
+  border-bottom: 3px solid #75EECC;
 }
-.container .content .first-row:after {
+.container .content .row:after {
   position: absolute;
   top: 42px;
   width: 15px;
   height: calc(100% + 3px);
   content: "";
-  border: 3px solid #f582ae;
+  border: 3px solid #75EECC;
   border-left: 0;
   border-radius: 0 20px 20px 0;
   right: -15px;
 }
-.container .content .first-row .wrapper {
+.container .content .row .wrapper {
   width: 40%;
 }
-.container .content .first-row .wrapper div[class^=col] {
+.container .content .row .wrapper div[class^=col] {
   text-align: center;
   padding: 0 15px 54px;
 }
-.container .content .first-row .wrapper div[class^=col] span {
-  color: #dd246b;
+.container .content .row .wrapper div[class^=col] span {
+  color: #75EECC;
   position: relative;
   padding-bottom: 25px;
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 1px;
 }
-.container .content .first-row .wrapper div[class^=col] span:before {
+.container .content .row .wrapper div[class^=col] span:before {
   position: absolute;
   bottom: 0;
   left: 50%;
   border-radius: 50%;
   content: "";
-  background: rgba(245, 130, 174, 0.342);
+  background: rgba(117, 238, 204, 0.3);
   margin-left: -13px;
   margin-bottom: -8px;
   height: 27px;
   width: 27px;
 }
-.container .content .first-row .wrapper div[class^=col] span:after {
+.container .content .row .wrapper div[class^=col] span:after {
   position: absolute;
   bottom: 0;
   left: 50%;
   border-radius: 50%;
   content: "";
-  background: #f582ae;
+  background: #75EECC;
   margin-left: -5px;
   height: 11px;
   width: 11px;
 }
-.container .content .first-row .wrapper div[class^=col] h6 {
+.container .content .row .wrapper div[class^=col] h6 {
   position: relative;
   padding-top: 50px;
   text-align: center;
@@ -105,29 +105,29 @@ body {
   font-weight: 500;
   margin-bottom: 5px;
 }
-.container .content .first-row .wrapper div[class^=col] h6:before {
+.container .content .row .wrapper div[class^=col] h6:before {
   position: absolute;
-  top: -10px;
+  top: -13px;
   left: 50%;
   height: 40px;
   width: 0;
   content: "";
-  border-right: 1px dashed #f582ae;
+  border-right: 1px dashed #75EECC;
 }
-.container .content .first-row .wrapper div[class^=col] .info ul {
+.container .content .row .wrapper div[class^=col] .info ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.container .content .first-row .wrapper div[class^=col] .info ul li {
-  color: #6275a8;
+.container .content .row .wrapper div[class^=col] .info ul li {
+  color: rgba(235, 253, 229, 0.6);
   font-size: 0.9375rem;
   font-weight: 200;
   padding: 10px 0;
   position: relative;
   line-height: 26px;
 }
-.container .content .first-row .wrapper div[class^=col] .info ul li:not(:last-child)::before {
+.container .content .row .wrapper div[class^=col] .info ul li:not(:last-child)::before {
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -136,91 +136,27 @@ body {
   margin-bottom: -0.5px;
   margin-left: -10px;
   content: "";
-  background: rgba(168, 159, 254, 0.3);
-}
-.container .content .second-row {
-  display: flex;
-  position: relative;
+  background: rgba(117, 238, 204, 0.3);
 }
 .container .content .second-row::before {
-  position: absolute;
-  top: 43px;
-  left: 0;
-  width: 100%;
-  height: 0;
-  content: "";
-  border-bottom: 1px dashed #f582ae;
+  border-bottom: 1px dashed #75EECC;
 }
 .container .content .second-row:after {
-  position: absolute;
-  top: 43px;
-  width: 15px;
-  height: calc(100% - 30px);
-  content: "";
-  border: 1px dashed #f582ae;
+  border: 1px dashed #75EECC;
   border-right: 0;
   border-radius: 20px 0 0 20px;
   left: -15px;
+  height: 93%;
 }
 .container .content .second-row .wrapper {
-  width: 40%;
   padding: 0 15px 54px;
 }
 .container .content .second-row .wrapper div[class^=col] {
-  text-align: center;
   position: relative;
   padding: 0 40px;
 }
-.container .content .second-row .wrapper div[class^=col] span {
-  color: #dd246b;
-  position: relative;
-  padding-bottom: 25px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-.container .content .second-row .wrapper div[class^=col] span:before {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  border-radius: 50%;
-  content: "";
-  background: rgba(245, 130, 174, 0.342);
-  margin-left: -13px;
-  margin-bottom: -8px;
-  height: 27px;
-  width: 27px;
-}
-.container .content .second-row .wrapper div[class^=col] span:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  border-radius: 50%;
-  content: "";
-  background: #f582ae;
-  margin-left: -5px;
-  height: 11px;
-  width: 11px;
-}
-.container .content .second-row .wrapper div[class^=col] h6 {
-  position: relative;
-  padding-top: 50px;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-.container .content .second-row .wrapper div[class^=col] h6:before {
-  position: absolute;
-  top: -14px;
-  left: 50%;
-  height: 40px;
-  width: 0;
-  content: "";
-  border-right: 2px solid #f582ae;
-}
 .container .content .second-row .wrapper div[class^=col] .info {
-  color: #6275a8;
+  color: rgba(235, 253, 229, 0.7);
   font-size: 0.9375rem;
   font-weight: 200;
 }
@@ -241,7 +177,7 @@ body {
     top: 0;
     width: 2;
     height: 104%;
-    border-left: 3px solid #f582ae;
+    border-left: 3px solid #75EECC;
     border-bottom: none;
   }
   .container .content .first-row:after {
@@ -278,7 +214,7 @@ body {
     left: -15px;
     height: 1px;
     width: 35px;
-    border-top: 1px dashed #f582ae;
+    border-top: 1px dashed #75EECC;
   }
   .container .content .first-row .wrapper div[class^=col] .info {
     margin-left: 10px;
@@ -296,7 +232,7 @@ body {
     top: 0px;
     width: 2px;
     height: 100%;
-    border-left: 1px dashed #f582ae;
+    border-left: 1px dashed #75EECC;
     border-bottom: none;
   }
   .container .content .second-row:after {
@@ -333,7 +269,7 @@ body {
     left: -20px;
     height: 1px;
     width: 40px;
-    border-top: 2px solid #f582ae;
+    border-top: 1px dashed #75EECC;
   }
   .container .content .second-row .wrapper div[class^=col] .info {
     margin-left: -30px;
